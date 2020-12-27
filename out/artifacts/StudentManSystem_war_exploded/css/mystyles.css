@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #e6e6e6;
+	font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+.title{
+    font-size: 24px;
+    color: #393b3d;
+}
+
+.login-feet{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#home {
+	width: 980px;
+	margin: 30px auto;
+	background: #fff;
+	padding: 30px;
+}
+
+#friendform {
+    width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+#searchfriends {
+    margin: 30px auto;
+}
+
+.rowcenter {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.rowright {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#login {
+    width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+}
+
+#register {
+    width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+}
+
+#header {
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+#blogTitle {
+    height: 60px;
+}
+
+#navigator {
+    font-size: 13px;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    height: 50px; 
+    display: flex;
+    align-items: center;
+}
+
+#navList {
+    min-height: 30px;
+}
+
+#navList li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;    
+    margin-top: 25px;
+}
+
+#navList a {
+    width: 5em;
+    height: 22px;
+    text-align: center;
+}
+
+.blogStats {
+    color: #757575;
+    text-align: right;
+}
+
+.media {
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ededed;
+}
+
+.media a {
+	margin-right: 10px;
+}
+
+.media .title {
+	font-size: 18px;
+    font-weight: 700;
+}
+
+.comments {
+	resize: none;
+}
+
+#commentlist {
+	margin-top: 30px;
+}
+
+#commentlist img {
+	width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#commentlist .time {
+	font-size: 12px;
+    color: #969696;
+}
